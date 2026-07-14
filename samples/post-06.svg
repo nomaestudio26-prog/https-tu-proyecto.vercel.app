@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+      <rect width="1080" height="1080" fill="#D78545"/>
+      <circle cx="510" cy="140" r="105" fill="#F5E3D4" opacity=".45"/><rect x="600" y="470" width="310" height="280" rx="48" fill="#F5E3D4" opacity=".55" transform="rotate(-6 720 720)"/><path d="M90 780 C290 520, 520 780, 990 610" fill="none" stroke="#F5E3D4" stroke-width="70" opacity=".28" stroke-linecap="round"/>
+      <rect x="58" y="58" width="964" height="964" rx="30" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="3"/>
+      <text x="82" y="105" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#fff" opacity=".88">THE JEWELER · EDIT 06</text>
+      <text x="540" y="548" text-anchor="middle" font-family="Georgia,serif" font-size="68" font-style="italic" fill="#fff">A guide to gold</text>
+      <text x="540" y="620" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="5" fill="#fff" opacity=".85">EDUCATIONAL</text>
+    </svg>

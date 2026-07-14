@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Content Grid · Notion</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main id="app" class="app">
+    <section class="widget">
+      <header class="compact-profile" id="compactProfile">
+        <img id="profileAvatar" class="profile-avatar" alt="Foto de perfil">
+        <div class="profile-text">
+          <strong id="profileUser">@thejeweler</strong>
+          <span id="profileName">Your trusted Jeweler</span>
+          <span id="profileBio">Silver. Stones. Stories.</span>
+          <a id="profileLink" target="_blank" rel="noreferrer">thejeweler.com</a>
+        </div>
+      </header>
+
+      <nav class="control-row" aria-label="Controles del widget">
+        <button id="refreshBtn" class="pill primary" type="button">↻ Refresh</button>
+        <button id="planBtn" class="pill" type="button">⌘ Plan grid</button>
+        <button id="mapBtn" class="circle-button" type="button" title="Content Map">◫</button>
+        <button id="profileBtn" class="circle-button" type="button" title="Profile Preview">◎</button>
+        <button id="columnsBtn" class="circle-button" type="button" title="Cambiar columnas">3</button>
+        <button id="themeBtn" class="circle-button" type="button" title="Modo claro/oscuro">◐</button>
+      </nav>
+
+      <section id="profilePreview" class="profile-preview" hidden>
+        <div class="preview-top">
+          <img id="largeAvatar" class="large-avatar" alt="">
+          <div>
+            <strong id="largeUser">@thejeweler</strong>
+            <b id="largeName">Your trusted Jeweler</b>
+            <p id="largeBio">Silver. Stones. Stories.</p>
+            <a id="largeLink" target="_blank" rel="noreferrer">thejeweler.com</a>
+          </div>
+        </div>
+        <div id="highlights" class="highlights"></div>
+      </section>
+
+      <div id="modeNotice" class="mode-notice" hidden></div>
+
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="grid" type="button">GRID</button>
+        <button class="tab" data-tab="reels" type="button">REELS</button>
+      </div>
+
+      <section id="grid" class="grid" aria-live="polite"></section>
+
+      <section id="empty" class="empty" hidden>
+        <strong>No hay publicaciones</strong>
+        <span>Revisa la base de Notion o pulsa Refresh.</span>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="postModal" class="post-modal">
+    <button id="closeModal" class="close-modal" type="button" aria-label="Cerrar">×</button>
+    <article class="instagram-post">
+      <header class="post-header">
+        <img id="modalAvatar" alt="">
+        <div>
+          <strong id="modalUser">@thejeweler</strong>
+          <span id="modalMusic">♫ Música original</span>
+        </div>
+        <b>•••</b>
+      </header>
+      <div id="modalMedia" class="modal-media"></div>
+      <button id="prevMedia" class="media-nav prev" type="button" aria-label="Anterior">‹</button>
+      <button id="nextMedia" class="media-nav next" type="button" aria-label="Siguiente">›</button>
+      <div id="mediaDots" class="media-dots"></div>
+      <div class="post-actions">
+        <span>♡</span><span>▢</span><span>↻</span><span>⌁</span><span class="bookmark">♧</span>
+      </div>
+      <div class="post-copy">
+        <strong><span id="modalLikes">100</span> me gusta</strong>
+        <p><b id="captionUser">@thejeweler</b> <span id="modalCaption"></span></p>
+        <p id="modalHashtags" class="hashtags"></p>
+        <time id="modalDate"></time>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="/config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

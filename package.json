@@ -1,0 +1,9 @@
+{
+  "name": "content-grid-notion-recreation",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Recreación independiente de un grid de Instagram embebible en Notion.",
+  "engines": {
+    "node": ">=20"
+  }
+}

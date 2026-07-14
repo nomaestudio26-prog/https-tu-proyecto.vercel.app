@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+      <rect width="1080" height="1080" fill="#A96558"/>
+      <circle cx="690" cy="140" r="90" fill="#EFDEDA" opacity=".45"/><rect x="600" y="415" width="390" height="280" rx="48" fill="#EFDEDA" opacity=".55" transform="rotate(-12 720 720)"/><path d="M90 780 C290 600, 520 720, 990 610" fill="none" stroke="#EFDEDA" stroke-width="70" opacity=".28" stroke-linecap="round"/>
+      <rect x="58" y="58" width="964" height="964" rx="30" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="3"/>
+      <text x="82" y="105" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#fff" opacity=".88">THE JEWELER · EDIT 15</text>
+      <text x="540" y="548" text-anchor="middle" font-family="Georgia,serif" font-size="68" font-style="italic" fill="#fff">Client favorite</text>
+      <text x="540" y="620" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="5" fill="#fff" opacity=".85">COLLABORATION</text>
+    </svg>
